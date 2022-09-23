@@ -14,4 +14,4 @@ int GetNumber()
 Console.Clear();
 int number = GetNumber();
 string strNumber = Convert.ToString(number);
-Console.WriteLine("вторая цифра этого числа -> "+strNumber[1]);
+Console.WriteLine("вторая цифра этого числа: " + strNumber[1]); // Выводит вторую по индексу цифру
