@@ -4,3 +4,14 @@
 782 -> 8
 918 -> 1 */
 
+int GetNumber()
+{
+    Console.WriteLine("Введите трёхзначное число: ");
+    int number = Convert.ToInt32(Console.ReadLine());
+    return number;
+}
+
+Console.Clear();
+int number = GetNumber();
+string strNumber = Convert.ToString(number);
+Console.WriteLine("вторая цифра этого числа -> "+strNumber[1]);
