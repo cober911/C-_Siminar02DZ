@@ -12,9 +12,9 @@ int GetNumber()
 }
 
 Console.Clear();
-int number=GetNumber();
+int number = GetNumber();
 string twoNumber = Convert.ToString(number);
-if(twoNumber.Length > 2) // Если длина строки больше двух.
-Console.WriteLine($"Третья цифра числа: {twoNumber[2]}");
+if (twoNumber.Length > 2) // Если длина строки больше двух.
+    Console.WriteLine($"Третья цифра числа: {twoNumber[2]}");
 else
-Console.WriteLine($"Третьей цифры нет.");
+    Console.WriteLine($"Третьей цифры нет.");
